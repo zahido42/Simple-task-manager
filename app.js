@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Clock, Plus, Check, Trash2, Edit, Play, Pause, Save } from 'lucide-react';
+const { useState, useEffect } = React;
+const { Clock, Plus, Check, Trash2, Edit, Play, Pause, Save } = lucideReact;
 
 const SimpleTimeboxingApp = () => {
   // Basic state
@@ -711,3 +711,4 @@ const SimpleTimeboxingApp = () => {
 };
 
 export default SimpleTimeboxingApp;
+ReactDOM.render(<SimpleTimeboxingApp />, document.getElementById('root'));
